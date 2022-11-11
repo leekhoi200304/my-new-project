@@ -10,14 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2110c5c-fffb-4a53-a142-561ce5ecb48c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/123.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CV.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/btform.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/formdongian.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-    </list>
+    <list default="true" id="f2110c5c-fffb-4a53-a142-561ce5ecb48c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +24,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2HINvRpL41ItphCnjpAuwfQKUF3" />
@@ -63,7 +69,7 @@
       <workItem from="1668086980728" duration="10377000" />
       <workItem from="1668128671201" duration="2593000" />
       <workItem from="1668152928369" duration="5712000" />
-      <workItem from="1668163330476" duration="6972000" />
+      <workItem from="1668163330476" duration="7155000" />
     </task>
     <servers />
   </component>
