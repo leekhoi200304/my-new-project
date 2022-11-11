@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Tạo Form Đơn Giản</title>
+    <style>
+        .flex {
+            display: flex;
+            margin-top: 10px;
+        }
+
+        .flex > div:first-child {
+            width: 70px;
+        }
+
+        .ml-2 {
+            margin-left: 10px;
+        }
+
+    </style>
+</head>
+<body>
+<form>
+    <h1>ĐĂNG KÍ HỌC VIÊN</h1>
+    <form>
+        <div class="flex">
+            <div>Ho va ten</div>
+            <div class="ml-2">
+                <input type="text" />
+            </div>
+        </div>
+
+        <div class="flex">
+            <div>Ngay sinh</div>
+            <div class="ml-2">
+                <input type="text" />
+            </div>
+        </div>
+
+        <div class="flex">
+            <div>Gioi tinh</div>
+            <div class="ml-2">
+                <input type="text" />
+            </div>
+        </div>
+
+        <tr>
+            <th style="color: blue">Họ và Tên</th>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <th style="color: blue">Ngày Sinh</th>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <th style="color: blue">Giới tính</th>
+            <td>
+                <input type="radio" name="rd" value="Nam" style="margin-right: 10px">Nam
+                <input type="radio" name="rd" value="Nữ">Nữ
+            </td>
+        </tr>
+<!--        <tr>-->
+
+
+
+<!--        </tr>-->
+
+    </form>
+
+    <div style="display: flex">
+        <div style="color: blue; margin-left: 5px; font-weight: bold; margin-right: 42px">Địa chỉ</div>
+        <div>
+            <input type="text" name="address" style="height: 40px;"/>
+        </div>
+    </div>
+
+
+</form>
+</body>
+</html>
