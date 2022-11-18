@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calcuator</title>
+</head>
+<body>
+<form>
+    <h2>Calculator</h2>
+    <input type="number" id="so1">
+    <input type="number" id="so2"><br>
+    <p> </p>
+    <button type="button" onclick=Cong()>Addition(+)</button>
+    <button type="button" onclick=Tru()>Subtraction(-)</button>
+    <button type="button" onclick=Nhan()>Multiplication(X)</button>
+    <button type="button" onclick=Chia()>Divison(/)</button>
+    <p id="result"></p>
+</form>
+</body>
+<script>
+    function Cong() {
+        let a = +document.getElementById("so1").value;
+        let b = +document.getElementById("so2").value;
+
+        let c = a + b;
+        document.getElementById("result").innerHTML =c
+    }
+    function Tru() {
+        let a = +document.getElementById("so1").value;
+        let b = +document.getElementById("so2").value;
+
+        let c = a - b;
+        document.getElementById("result").innerHTML =c
+    }
+    function Nhan() {
+        let a = +document.getElementById("so1").value;
+        let b = +document.getElementById("so2").value;
+
+        let c = a * b;
+        document.getElementById("result").innerHTML =c
+    }
+    function Chia() {
+        let a = +document.getElementById("so1").value;
+        let b = +document.getElementById("so2").value;
+
+        let c = a / b;
+        document.getElementById("result").innerHTML =c
+    }
+</script>
+</html>
