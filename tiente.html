@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <table>
+    <tr>
+        <th style="width: 300px"><h2>Amount</h2></th>
+        <th style="width: 300px"><h2>From Currency</h2></th>
+        <th style="width: 300px"><h2>To Currency</h2></th>
+    </tr>
+    <tr style="text-align: center">
+        <td>
+            <input type="number" style="width: 170.4px; height: 26px" id="So">
+        </td>
+        <td>
+            <select style="width: 178.4px; height: 32px" id="Chuyendoi1">
+                <option>VND</option>
+                <option>USD</option>
+            </select>
+        </td>
+        <td>
+            <select style="width: 178.4px; height: 32px" id="Chuyendoi2">
+                <option>VND</option>
+                <option>USD</option>
+            </select>
+        </td>
+        <td>
+            <button type="button" onclick=abc() style="background: dodgerblue; color: white">Convert</button>
+        </td>
+    </tr>
+    </table>
+    <h3 id="result">result = </h3>
+</form>
+
+</body>
+<script>
+    function abc() {
+        let So = document.getElementById("So").value;
+        let Chuyendoi1 = document.getElementById("Chuyendoi1").value;
+        let Chuyendoi2 = document.getElementById("Chuyendoi2").value;
+
+        if (Chuyendoi1 == "VND" && Chuyendoi2 == "USD"){
+            let c = So * 23000;
+            document.getElementById("result").innerHTML= "result = " + c
+        }
+        else {
+            let d = So / 23000;
+            document.getElementById("result").innerHTML= "result = " + d
+        }
+
+
+
+    }
+</script>
+</html>
